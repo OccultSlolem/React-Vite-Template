@@ -1,6 +1,21 @@
 # Created by https://www.toptal.com/developers/gitignore/api/react,visualstudiocode,macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=react,visualstudiocode,macos,windows
 
+# Created by https://www.toptal.com/developers/gitignore/api/firebase
+# Edit at https://www.toptal.com/developers/gitignore?templates=firebase
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+firebase-export
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+
+# End of https://www.toptal.com/developers/gitignore/api/firebase
+
 ### macOS ###
 # General
 .DS_Store
